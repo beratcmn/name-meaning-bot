@@ -26,7 +26,7 @@ driver.quit()
 
 # time.sleep(1)
 
-file = open("names.txt", "w", encoding="utf-8")
+file = open("./assets/names.txt", "w", encoding="utf-8")
 
 pattern = r'. (ile başlayan isimler)'
 raw_name_data = re.sub(pattern, '', raw_name_data)
