@@ -31,7 +31,7 @@ def GenerateImage(_name: str, _meaning: str):
 
 
 def main():
-    with open("data.json", "r", encoding="utf-8") as f:
+    with open("./assets/data.json", "r", encoding="utf-8") as f:
     # with open("data-news.json", "r", encoding="utf-8") as f:
         data = json.load(f)
 
